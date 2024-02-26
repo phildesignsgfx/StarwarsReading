@@ -1,3 +1,50 @@
 /* 
-    General Styles
+    General Styles used on every website (Don't Repeat Yourself)
 */
+
+.container-fluid {
+    width: 100%;
+  }
+  
+  .row {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    margin: 0px 0px 30px 0px;
+    padding-bottom: 20px;
+  }
+  
+  .characters {
+    -webkit-text-stroke: 1px red;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 10px;
+  }
+  
+  .heart {
+    margin-left: 100px;
+  }
+  
+  ::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+  .single {
+    margin-top: 100px;
+    margin-left: 300px;
+    box-shadow: 5px 5px 10px;
+  }
+  
+  .single-table {
+    margin-top: 40px;
+  }
+  
